@@ -16,5 +16,5 @@ class PedidoPresenter:
         for output_dto in output_dtos:
             pedido_formatado = self.apresentar(output_dto)
             lista_formatada.append(pedido_formatado)
-
+            
         return lista_formatada
