@@ -1,14 +1,14 @@
 class CriarPedidoOutputDTO:
     def __init__(
-        self,
-        cliente: str,
-        valor_original: float,
-        valor_desconto: float,
-        valor_final: float,
+        self, 
+        cliente: str, 
+        valor_original: float, 
+        valor_desconto: float, 
+        valor_final: float, 
         tipo_desconto: str
     ):
         self.cliente = cliente
         self.valor_original = valor_original
         self.valor_desconto = valor_desconto
         self.valor_final = valor_final
-        self.self.tipo_desconto = tipo_desconto
+        self.tipo_desconto = tipo_desconto
